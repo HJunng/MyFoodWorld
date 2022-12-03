@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+	font-family: 'Hi Melody', cursive;
+	list-style:none;
+	text-decoration:none;
+	border-collapse : collapse;
+	margin:0px;
+	padding:0px;
+	color:black;
+	
+}
+.main {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin:10% 35%;
+}
+.text{
+	margin:10px;
+}
+#add {
+    width: 100%;
+    background-color: skyblue;
+    border-color: transparent;
+    color: white;
+}
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#alert {
+    border-color: transparent;
+}

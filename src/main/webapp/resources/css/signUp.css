@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+	font-family: 'Hi Melody', cursive;
+}
+.main {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin:10% 35%;
+}
+.logo {
+	font-size:60px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#signUp {
+    width: 100%;
+    background-color: skyblue;
+    border-color: transparent;
+    color: white;
+}
+
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 6px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#alert {
+    border-color: transparent;
+}

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+*{
+	/*글씨체 바꾸기 나눔 고딕*/
+	font-family: 'Hi Melody', cursive;
+	list-style:none;
+	text-decoration:none;
+	border-collapse : collapse;
+	margin:0px;
+	padding:0px;
+	color:black;
+}
+.jumbotron{
+	background-color: ivory;
+}
+.intro_bg{
+	background-image:url("../images/menu.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:300px;
+	text-align:center;
+	display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+#title{
+	margin-top:10px;
+}
+.combo{
+	margin-right:150px;
+	float:right;
+	align-items:right;
+}
+#search{
+    width: 100%;
+    background-color: skyblue;
+    border-color: transparent;
+    color: white;
+
+}
+.user{
+	font-size:40px;
+	margin:0 60px;
+}
+ul li{
+	font-size:40px;
+	list-style-type:none;
+	margin:0 40px;
+}
+.menuli{
+	color:#f68370;
+}
+.menuli:hover{
+	color:purple;
+	text-decoration:none;
+	text-shadow: #FC0 1px 0 20px;
+	
+}
+#title{
+	font-family: 'Gochi Hand', cursive;
+	font-size:140px;
+	color:#f68370;
+}

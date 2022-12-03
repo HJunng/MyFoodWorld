@@ -1,0 +1,39 @@
+@charset "UTF-8";
+*{
+	font-family: 'Gochi Hand', cursive;
+}
+.main {
+    width: 350px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin:10% 35%;
+}
+.logo {
+	font-size:40px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+#login {
+    width: 100%;
+    background-color: skyblue;
+    border-color: transparent;
+    color: white;
+}
+
+.account {
+    display: block;
+    margin-bottom: 3px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#alert {
+    border-color: transparent;
+}

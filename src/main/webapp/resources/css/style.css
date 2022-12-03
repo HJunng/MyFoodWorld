@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*{
+	/*글씨체 바꾸기 나눔 고딕*/
+	font-family: 'Gochi Hand', cursive;
+	list-style:none;
+	text-decoration:none;
+	border-collapse : collapse;
+	margin:0px;
+	padding:0px;
+	color:black;
+}
+
+.intro_bg{
+	background-image:url("../images/menu.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:300px;
+	text-align:center;
+	display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.korean{
+	color:black;
+	font-family: 'Hi Melody', cursive;
+	margin-left:90px;
+}
+#title{
+	margin-top:10px;
+}
+ul li{
+	font-size:40px;
+	list-style-type:none;
+	margin:0 120px;
+}
+#login{
+	color:#f68370;
+	margin-left:100px;
+	text-decoration-style: dashed;
+}
+.menuli{
+	color:#f68370;
+}
+.menuli:hover{
+	color:purple;
+	text-decoration:none;
+	text-shadow: #FC0 1px 0 20px;
+	
+}
+#title{
+	font-family: 'Gochi Hand', cursive;
+	font-size:140px;
+	color:#f68370;
+}
+#loginDiv{
+	margin:auto;
+	display:flex;
+	height:300px;
+	align-items:center;
+	justify-content: center;
+}
+.image{
+	margin-right:50px;
+	flex:0;
+}
